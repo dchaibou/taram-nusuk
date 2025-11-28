@@ -1,81 +1,80 @@
 # Taram-Nusuk (Modèle de Base)
 
-Modèle de plateforme web vitrine personnalisable pour les agences de voyage Hajj & Omra.
+Modèle de plateforme web personnalisable pour les agences de voyage spécialisées dans le Hajj et l'Omra.
 
-## Description du Projet
+## Description du projet
 
-Taram-Nusuk sert de maquette principale ("main" template) pour notre solution B2B. Ce dépôt n'est pas un site web finalisé, mais un kit de démarrage robuste qui sera forké (dupliqué) pour chaque nouveau client.
-Chaque fork deviendra le site web unique d'une agence, où nous pourrons effectuer de petits ajustements (palettes de couleurs, logos, contenus spécifiques) en fonction des besoins précis du client. L'architecture est conçue pour permettre une personnalisation rapide et efficace.
+**Taram-Nusuk** constitue le modèle de base pour notre solution B2B. Ce dépôt ne représente pas un site finalisé, mais plutôt un kit de démarrage robuste, qui sera dupliqué pour chaque nouveau client. Chaque branche deviendra le site web personnalisé d'une agence, permettant des ajustements spécifiques (telles que les palettes de couleurs, logos, et contenus) selon les besoins particuliers de chaque client. L'architecture du modèle est conçue pour faciliter une personnalisation rapide et efficace.
 
-## Architecture et Structure
+## Architecture et structure
 
-Le modèle est conçu pour couvrir toutes les sections essentielles d'un site d'agence de voyage :
+Le modèle couvre toutes les sections essentielles d’un site d'agence de voyage :
 
-- / - Page d'Accueil : Vitrine principale et mise en avant des offres.
-- /services - Services : Détails des forfaits Hajj et Omra.
-- /actualites - Actualités : Blog et mises à jour réglementaires.
-- /galerie - Galerie : Section visuelle pour inspirer les pèlerins.
-- /localites - Localités : Informations sur La Mecque, Médine, etc.
-- /contact - Contact : Formulaires et informations de contact.
+* **/accueil** : Page d’accueil principale, mettant en avant les offres.
+* **/services** : Section détaillant les forfaits Hajj et Omra.
+* **/actualites** : Blog et informations sur les mises à jour réglementaires.
+* **/galerie** : Espace visuel inspirant pour les pèlerins.
+* **/localites** : Informations pratiques sur La Mecque, Médine et autres lieux saints.
+* **/contact** : Formulaires et informations de contact.
 
-## Fonctionnalités Clés du Modèle
+## Fonctionnalités principales du modèle
 
-- Structure Modulaire : Facilite la réutilisation et le remplacement de composants.
-- Personnalisation Rapide (Post-Fork) : Variables CSS/SCSS prédéfinies pour un changement de thème rapide.
-- Contenu Placeholder : Contenu d'exemple facile à remplacer par les données du client.
-- Design Responsive : Optimisé pour tous les appareils.
+* **Structure modulaire** : Permet de réutiliser et remplacer facilement les composants.
+* **Personnalisation rapide (Post-Fork)** : Variables CSS/SCSS prédéfinies pour un changement de thème rapide.
+* **Contenu de type placeholder** : Des éléments de contenu par défaut faciles à remplacer par les informations du client.
+* **Design responsive** : Optimisation pour tous les types d'appareils (mobiles, tablettes, ordinateurs).
 
-## Méthodologie de Travail (Workflow Dev/Client)
+## Méthodologie de travail (Workflow Dev/Client)
 
-- Dépôt de Base (main) : Ce dépôt taram-nusuk sert de source de vérité et reçoit les mises à jour structurelles.
-- Création Client (fork) : Pour chaque nouvelle agence (ex: AgenceAlMadina), un nouveau dépôt est créé en se basant sur ce modèle.
-- Ajustements Client : Les ajustements spécifiques (branding, couleurs, contenu) sont effectués uniquement dans le dépôt forké du client.
+* **Dépôt principal (main)** : Ce dépôt sert de référence principale et reçoit toutes les mises à jour structurelles.
+* **Création du site client (nouvelle branche)** : À chaque nouvelle agence (ex : AgenceAlMadina), une nouvelle branche est créée à partir de ce modèle.
+* **Ajustements spécifiques au client** : Les personnalisations (branding, couleurs, contenu) se font uniquement dans la branche dédiée au client.
 
-## Technologies Utilisées
+## Technologies utilisées
 
-    [Liste des technologies principales, par exemple : React/Vue/Angular, Node.js, MongoDB/PostgreSQL, Tailwind CSS, etc.]
+Liste des technologies principales utilisées pour ce modèle (par exemple : React, Node.js, Tailwind CSS, etc.)
 
-## Installation et Utilisation (Pour les développeurs)
+## Installation et utilisation (pour les développeurs)
 
-Ces instructions concernent l'utilisation du dépôt de base ou d'un fork client.
-Prérequis
-Assurez-vous d'avoir installé les éléments suivants :
+### Prérequis
 
-```
-
-    Node.js (version 22 ou supérieure)
-    Git
+Avant de commencer, assurez-vous d’avoir installé les éléments suivants :
 
 ```
+Node.js (version 22 ou supérieure)
+Git
+```
 
-Étapes d'Installation
+### Étapes d'installation
+
+#### 1. Cloner le dépôt
 
 ```bash
+git clone https://github.com/dchaibou/taram-nusuk.git
+```
 
-# 1. Cloner le dépôt
-git clone github.com
+#### 2. Naviguer vers le répertoire du projet
 
-# 2. Naviguer vers le répertoire du projet
+```bash
 cd taram-nusuk
-
-# 3. Installer les dépendances
-npm install
-# ou yarn install
 ```
 
-Utilisez le code avec précaution.
-Lancement du Projet
+#### 3. Installer les dépendances
 
 ```bash
-
-# Lancer le serveur de développement
-npm start
-# ou npm run dev
+npm install
 ```
 
-Utilisez le code avec précaution.
-Le projet sera accessible à l'adresse <http://localhost:3000>.
+### Lancer le projet
+
+```bash
+npm run dev
+# ou
+pnpm dev
+```
+
+Le projet sera accessible à l'adresse : [http://localhost:3000](http://localhost:3000).
 
 ## Contact
 
-Pour toute question ou information supplémentaire, veuillez contacter l'équipe de développement.
+Pour toute question ou demande d’informations supplémentaires, n’hésitez pas à contacter l’équipe de développement.
