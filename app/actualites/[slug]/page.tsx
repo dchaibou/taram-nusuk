@@ -19,8 +19,12 @@ export async function generateStaticParams() {
 /**
  * 2. Composant de Page
  */
-export default async function ArticlePage({ params }) {
-  const slug = params.slug;
+export default async function ArticlePage({
+  params,
+}: {
+  params: { slug: string };
+}) {
+  const { slug } = await params;
   const article = getArticleBySlug(slug);
 
   if (!article) {
