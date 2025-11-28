@@ -1,10 +1,10 @@
-# Taram-Nusuk (Modèle de Base)
+# Taram Nusuk (Modèle de Base)
 
 Modèle de plateforme web personnalisable pour les agences de voyage spécialisées dans le Hajj et l'Omra.
 
 ## Description du projet
 
-**Taram-Nusuk** constitue le modèle de base pour notre solution B2B. Ce dépôt ne représente pas un site finalisé, mais plutôt un kit de démarrage robuste, qui sera dupliqué pour chaque nouveau client. Chaque branche deviendra le site web personnalisé d'une agence, permettant des ajustements spécifiques (telles que les palettes de couleurs, logos, et contenus) selon les besoins particuliers de chaque client. L'architecture du modèle est conçue pour faciliter une personnalisation rapide et efficace.
+**Taram Nusuk** constitue le modèle de base pour notre solution B2B. Ce dépôt ne représente pas un site finalisé, mais plutôt un kit de démarrage robuste, qui sera dupliqué pour chaque nouveau client. Chaque branche deviendra le site web personnalisé d'une agence, permettant des ajustements spécifiques (telles que les palettes de couleurs, logos, et contenus) selon les besoins particuliers de chaque client. L'architecture du modèle est conçue pour faciliter une personnalisation rapide et efficace.
 
 ## Architecture et structure
 

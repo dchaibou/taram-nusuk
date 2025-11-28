@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -23,4 +23,38 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+} */
+
+:root {
+  /* Couleurs pour le Mode Clair */
+  --color-base-background: #ffffff;
+  --color-base-foreground: #171717;
+
+  /* 💡 VARIABLES DE MARQUE CLIENT (Personnalisation Rapide) */
+  --color-client-primary: 34 197 94;
+  /* Vert Emeraude (R G B) */
+  --color-client-secondary: 59 130 246;
+  /* Bleu (R G B) */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Couleurs pour le Mode Sombre */
+    --color-base-background: #0a0a0a;
+    --color-base-foreground: #ededed;
+  }
+}
+
+/* ------------------------------------------------ */
+/* 2. Styles de Base du Body */
+/* ------------------------------------------------ */
+
+@layer base {
+  body {
+    /* Utilisation des variables de thème de base */
+    background: rgb(var(--color-base-background));
+    color: rgb(var(--color-base-foreground));
+    font-family: Arial, Helvetica, sans-serif;
+    @apply antialiased;
+  }
 }
